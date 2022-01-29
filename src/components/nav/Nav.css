@@ -1,0 +1,35 @@
+.topNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: rgb(200, 241, 211);
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.navLogo{
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+.navLinksContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navLinkHolder{
+    list-style: none;
+    
+}
+
+.navLinkHolder a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px ;
+}
+
+.navLinkHolder .active{
+    color: rgb(106, 139, 14) ;
+}
