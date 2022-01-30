@@ -12,6 +12,7 @@
     min-height: 270px;
     position: relative;
     cursor: grab;
+    margin-bottom: 15px;
 }
 
 .cardImage{

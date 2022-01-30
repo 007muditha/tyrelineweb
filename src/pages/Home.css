@@ -1,9 +1,17 @@
 
-.videoContainer{
-    overflow:hidden;
-}
+
 
 .videoBG {
     width: 100%;
   }
 
+.searchContainer{
+    background-image: url("https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/Slider-1.jpg");
+    background-size: cover;
+    background-position: center ;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}

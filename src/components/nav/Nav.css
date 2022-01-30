@@ -1,11 +1,29 @@
+.topLogoContainer{
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topImageContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+}
+
+.topImageLogo{
+    width: 12%;
+}
 .topNav{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
     background: rgb(200, 241, 211);
     padding-top: 10px;
     padding-right: 20px;
+    position: sticky;
 }
 
 .navLogo{
@@ -15,8 +33,10 @@
 
 .navLinksContainer{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
+    width: 70%;
+
 }
 
 .navLinkHolder{

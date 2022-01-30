@@ -3,5 +3,25 @@
     overflow-x: scroll;
     justify-content: flex-start;
     align-items: center;
-
 }
+
+.hScrollContainer::-webkit-scrollbar {
+    height: 10px;
+  }
+  
+  /* Track */
+  .hScrollContainer::-webkit-scrollbar-track {
+    background: #ffffff; 
+    
+  }
+   
+  /* Handle */
+  .hScrollContainer::-webkit-scrollbar-thumb {
+    background: #888; 
+    max-width: 10px;
+  }
+  
+  /* Handle on hover */
+  .hScrollContainer::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

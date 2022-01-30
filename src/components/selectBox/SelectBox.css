@@ -1,0 +1,81 @@
+.selectBoxContainer{
+    width: 100%;  
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+   
+}
+
+
+.selectBoxContainer .selectOption{
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    background-color: honeydew;
+    transition: 0.5s ease-in;
+}
+
+
+.selectBoxContainer .selectOption:hover{
+    background-color: rgb(219, 233, 219);
+}
+
+.selectInputcontainer{
+    display: flex;
+    width: 100%;
+    top: 5;
+}
+
+.selectOptionContainer{
+    width: 100%;
+    z-index: 10;
+    max-height: 200px;
+    overflow-y: scroll ;
+}
+
+
+
+.selectInputcontainer input{
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    flex: 4;
+}
+
+
+.selectInputcontainer button{
+    width: 100%;
+    flex: 1;
+    background: honeydew;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    transition: 0.3s ease-in;
+}
+
+.selectInputcontainer button:hover{
+    background: rgb(181, 192, 181);
+}
+
+.selectOptionContainer::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  .selectOptionContainer::-webkit-scrollbar-track {
+    background: #ffffff; 
+    
+  }
+   
+  /* Handle */
+  .selectOptionContainer::-webkit-scrollbar-thumb {
+    background: #888; 
+    max-width: 10px;
+  }
+  
+  /* Handle on hover */
+  .selectOptionContainer::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
