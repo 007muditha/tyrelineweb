@@ -4,7 +4,7 @@
     width: 300px;
     min-width: 300px;
     box-shadow: 0 10px 10px rgb(0 0 0 / 0.1);
-    background: orange;
+    background: rgb(255, 255, 255);
     justify-content: center;
     align-items: center;
     margin: 5px;
@@ -18,16 +18,19 @@
 .cardImage{
     position: absolute;
     height: 100%;
-    top: 0;
+    top:5px;
     clip: rect(0px,300px,150px,0px);
 }
 
-.cardHeader{
+.brandImage{
     position: absolute;
-    top: 160px;
+    top: 165px;
+    height: 40px;
 }
 
-.cardButton{
+.cardText{
+    font-size: large;
+    font-weight: 600;
     position: absolute;
-    top: 200px;
+    top: 210px;
 }

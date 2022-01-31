@@ -18,20 +18,28 @@ const Home = () => {
                 </Col>
             </Row>
             <Row className="searchContainer">
-            <Col md={1}></Col>
-                <Col md={3} className="p-0">
+                <Col className="searchBoxCol">
+            <Container className="searchBoxInner">
+                <Col className="p-0">
                     <SelectBox/>
                 </Col>
-                <Col md={3} className="p-0">
+                <Col  className="p-0">
                     <SelectBox/>
                 </Col>
-                <Col md={3} className="p-0">
+                <Col  className="p-0">
                     <SelectBox/>
                 </Col>
-                <Col md={1}></Col>
+                <Col  className="p-0">
+                    <SelectBox/>
+                </Col>
+                <Col  className="p-0">
+                    <Button className="searchButton"> Search </Button>
+                </Col>
+                </Container>
+                </Col>
             </Row>
 
-            <Row>
+            <Row className="HScrollContainer">
                 <Col className="p-0">
                 <HScroll/>
                 </Col>

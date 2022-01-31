@@ -1,6 +1,6 @@
 .hScrollContainer{
     display: flex;
-    overflow-x: scroll;
+    overflow: hidden;
     justify-content: flex-start;
     align-items: center;
 }
