@@ -5,7 +5,7 @@ const SelectBox = () => {
   const [inputValue, setInoutValue] = useState("");
   const [selectableVal,setSelectables] = useState([]);
   const [showAll,setShowAll] = useState(false)
-  const options = ["Muditha", "Claudi","Claudi","Claudi","Claudi","Muditha", "Claudi","Claudi","Claudi","Claudi"];
+  const options = ["Michelin", "Contenental","GRI","Dunlop"];
 
   
 useEffect(() =>{displaySelection()},[inputValue])
@@ -47,7 +47,7 @@ useEffect(() =>{displauAllOptions()},[showAll])
   return (
     <div className="selectBoxContainer" >
       <div className="selectInputcontainer">
-      <input value={inputValue}  onChange={event => {setInoutValue(event.target.value)}} placeholder="Select Value" />
+      <input value={inputValue}  onChange={event => {setInoutValue(event.target.value)}} placeholder="Tyre Brand" />
       <button onClick={showAllOptions}>All</button>
       </div>
       <div className="selectOptionContainer">
