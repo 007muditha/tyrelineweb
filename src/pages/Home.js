@@ -15,7 +15,7 @@ const Home = () => {
                 </Col>
                 <Col md={6} className="videoContainer p-0">
                 <video autoPlay muted loop className="videoBG">
-                    <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4" />
+                    <source src="https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/The-Farmer.mp4" type="video/mp4" />
                 </video>
                 </Col>
             </Row>

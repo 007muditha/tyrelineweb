@@ -19,14 +19,12 @@ const SliderComponent = (props) => {
       };
       return (
           <Slider {...settings}>
-              <ImageCard/>
-              <ImageCard/>
-              <ImageCard/>
-              <ImageCard/>
-              <ImageCard/>
-              <ImageCard/>
-              <ImageCard/>
-              <ImageCard/>
+              <ImageCard image="https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/Continental-Tyres-Logo.svg"/>
+              <ImageCard image="https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/GRI-Tyres-Logo.svg"/>
+              <ImageCard image="https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/Michelin-Logo.svg"/>
+              <ImageCard image="https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/Continental-Tyres-Logo.svg"/>
+              <ImageCard image="https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/GRI-Tyres-Logo.svg"/>
+              <ImageCard image="https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/Michelin-Logo.svg"/>
           </Slider>
       );
 }
