@@ -1,0 +1,15 @@
+.socialImageContainer{
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+}
+
+.socialImage{
+    width: 12vw;
+    margin: 5px;
+}
+
+.socialHeader{
+    color: #fff;
+    margin-left: 16vw;
+}

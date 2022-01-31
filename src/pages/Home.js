@@ -3,7 +3,9 @@ import './Home.css'
 import { Container,Row,Col,Button} from "react-bootstrap"
 import HScroll from "../components/hScroll/HScroll"
 import SelectBox from "../components/selectBox/SelectBox"
-
+import SliderTyres from "../components/Slider/SliderTyres"
+import SliderLogos from "../components/Slider/SliderLogos"
+import Social from "../components/Social/Social"
 const Home = () => {
     return(
         <Container fluid>
@@ -41,12 +43,17 @@ const Home = () => {
 
             <Row className="HScrollContainer">
                 <Col className="p-0">
-                <HScroll/>
+                <SliderTyres/>
                 </Col>
             </Row>
-            <Row>
+            <Row className="LogoDisplay">
                 <Col>
-                    Test
+                <SliderLogos/>
+                </Col>
+            </Row>
+            <Row className="SocialMedia">
+                <Col>
+                <Social/>
                 </Col>
             </Row>
         </Container>

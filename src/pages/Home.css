@@ -37,4 +37,27 @@
   background:linear-gradient(40deg, rgba(26, 25, 25, 0.6), rgba(99, 99, 99, 0.3)), url("https://tyrelineaustralia.com.au/wp-content/uploads/2021/06/ROADBIB-Cover.jpg");
   background-size: cover;
   background-position: center ;
+  overflow:hidden;
+}
+
+.LogoDisplay{
+  overflow:hidden;
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#fff ;
+  background-size: cover;
+  background-position: center ;
+}
+
+
+.SocialMedia{
+  overflow:hidden;
+  background: url("https://www.stwaustralia.com.au/documents/categories/AGRICULTURAL%20RADIAL%20TYRES.jpg") center;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
 }
