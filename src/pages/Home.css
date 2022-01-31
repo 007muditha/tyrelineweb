@@ -6,7 +6,7 @@
   }
 
 .searchContainer{
-    background:linear-gradient(40deg, rgba(26, 25, 25, 0.6), rgba(250, 250, 250, 0.9)), url("https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/Slider-1.jpg");
+    background:linear-gradient(40deg, rgba(26, 25, 25, 0.6), rgba(250, 250, 250, 0.9)), url("https://tyrelineimg.s3.amazonaws.com/spencer-pugh-uzDCTCx6GXE-unsplash.jpg");
     background-size: cover;
     background-position: center ;
     min-height: 400px;
@@ -34,7 +34,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background:linear-gradient(40deg, rgba(26, 25, 25, 0.6), rgba(99, 99, 99, 0.3)), url("https://tyrelineaustralia.com.au/wp-content/uploads/2021/06/ROADBIB-Cover.jpg");
+  background:linear-gradient(40deg, rgba(26, 25, 25, 0.6), rgba(99, 99, 99, 0.3)), url("https://tyrelineimg.s3.amazonaws.com/scott-goodwill-CtRE4_4L7b8-unsplash.jpg");
   background-size: cover;
   background-position: center ;
   overflow:hidden;
@@ -54,7 +54,7 @@
 
 .SocialMedia{
   overflow:hidden;
-  background: url("https://www.stwaustralia.com.au/documents/categories/AGRICULTURAL%20RADIAL%20TYRES.jpg") center;
+  background: linear-gradient(0deg, rgba(26, 25, 25, 0.2), rgba(0, 0, 0, 0.4)),url("https://tyrelineimg.s3.amazonaws.com/walter-sturn-Rd8FuyvGRGY-unsplash.jpg") center;
   height: 70vh;
   display: flex;
   justify-content: center;

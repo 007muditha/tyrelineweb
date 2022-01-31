@@ -4,11 +4,11 @@ import './Social.css'
 const Social = () => {
 
     const Images=[
-        "https://i.pinimg.com/originals/a0/92/ec/a092eccd4a6903a38a9e538b89ec17d2.jpg",
-        "https://i.pinimg.com/originals/a0/92/ec/a092eccd4a6903a38a9e538b89ec17d2.jpg",
-        "https://i.pinimg.com/originals/a0/92/ec/a092eccd4a6903a38a9e538b89ec17d2.jpg",
-        "https://i.pinimg.com/originals/a0/92/ec/a092eccd4a6903a38a9e538b89ec17d2.jpg",
-        "https://i.pinimg.com/originals/a0/92/ec/a092eccd4a6903a38a9e538b89ec17d2.jpg"
+        "https://tyrelineimg.s3.amazonaws.com/1.png",
+        "https://tyrelineimg.s3.amazonaws.com/3.png",
+        "https://tyrelineimg.s3.amazonaws.com/Artboard+1.jpg",
+        "https://tyrelineimg.s3.amazonaws.com/Artboard+1.png",
+        "https://tyrelineimg.s3.amazonaws.com/Artboard+3.png"
     ]
 
     return(
