@@ -22,6 +22,7 @@ const Home = () => {
             <Row className="searchContainer">
                 <Col className="searchBoxCol">
             <Container className="searchBoxInner">
+                <Row>
                 <Col className="p-0">
                     <SelectBox/>
                 </Col>
@@ -37,6 +38,7 @@ const Home = () => {
                 <Col  className="p-0">
                     <Button className="searchButton"> Search </Button>
                 </Col>
+                </Row>
                 </Container>
                 </Col>
             </Row>

@@ -13,10 +13,8 @@ const Nav = () => {
             <ul className='navLinksContainer'>
             <li className='navLinkHolder'><NavLink to="" >Home</NavLink></li>
             <li  className='navLinkHolder'><NavLink to="about">About</NavLink></li>
-            <li  className='navLinkHolder'><NavLink to="about">About</NavLink></li>
-            <li  className='navLinkHolder'><NavLink to="about">About</NavLink></li>
-            <li  className='navLinkHolder'><NavLink to="about">About</NavLink></li>
-            <li  className='navLinkHolder'><NavLink to="about">About</NavLink></li>
+            <li  className='navLinkHolder'><NavLink to="brands">Brands</NavLink></li>
+            <li  className='navLinkHolder'><NavLink to="contactus">Contact Us</NavLink></li>
             </ul>
         </nav>
         </div>

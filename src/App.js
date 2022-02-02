@@ -2,6 +2,8 @@ import React from 'react'
 import Home from './pages/Home'
 import About from './pages/About'
 import Nav from './components/nav/Nav'
+import Brands from './pages/Brands'
+import ContactUs from './pages/ContactUs'
 import {BrowserRouter , Route,Routes } from 'react-router-dom'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -18,6 +20,11 @@ function App() {
     <Routes >
     <Route path="/"  element={<Home/>}/>
     <Route path="/about"  element={<About/>}/>
+    <Route path="/brands"  element={<Brands/>}/>
+    <Route path="/contactus"  element={<ContactUs/>}/>
+    
+
+    
     </Routes >
     </main>
 
