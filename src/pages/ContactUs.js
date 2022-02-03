@@ -9,7 +9,7 @@ const ContactUs = () => {
         <Container fluid>
             <Row>
                 <Col>
-                    Contact Us
+                    Contact Us is pending with backend development 
                 </Col>
             </Row>
         </Container>

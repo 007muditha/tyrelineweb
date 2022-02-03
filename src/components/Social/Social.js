@@ -6,9 +6,9 @@ const Social = () => {
     const Images=[
         "https://tyrelineimg.s3.amazonaws.com/1.png",
         "https://tyrelineimg.s3.amazonaws.com/3.png",
-        "https://tyrelineimg.s3.amazonaws.com/Artboard+1.jpg",
+        "https://tyrelineimg.s3.amazonaws.com/1.png",
         "https://tyrelineimg.s3.amazonaws.com/Artboard+1.png",
-        "https://tyrelineimg.s3.amazonaws.com/Artboard+3.png"
+        "https://tyrelineimg.s3.amazonaws.com/3.png",
     ]
 
     return(

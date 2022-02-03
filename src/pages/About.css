@@ -1,0 +1,67 @@
+.aboutUsTop{
+    background:linear-gradient(40deg, rgba(26, 25, 25, 0.6), rgba(54, 54, 54, 0.9)), url("https://tyrelineimg.s3.amazonaws.com/pexels-mark-stebnicki-2889442.jpg") center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.aboutUsHeader{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    min-height: 50vh;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.aboutUsWhoWeAre{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+
+.aboutUsWhoWeAreContentParagraph{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+    color: #fff;
+}
+
+.aboutUsUsers{
+    margin-bottom: 50px;
+}
+
+.aboutusOurTeamHeader{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+
+.aboutusOurVision{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 60px;
+}
+
+.aboutusOurConnecting{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.aboutusVisionContainer{
+    background:linear-gradient(40deg, rgba(26, 25, 25, 0.6), rgba(54, 54, 54, 0.9)), url("https://tyrelineimg.s3.amazonaws.com/volvo-g025b0c71f_1920.jpg") center;
+    background-size: cover;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}

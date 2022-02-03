@@ -6,40 +6,43 @@ const Brands = () => {
 
 
     const BrandsSet = [
-        "img1",
-        "img2",
-        "img3",
-        "img4",
-        "img5"
+        "https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/Michelin-Logo.svg",
+        "https://tyrelineimg.s3.amazonaws.com/Ovation_Logo_Orange_Black-768x427.png",
+        "https://tyrelineimg.s3.amazonaws.com/491636693771_.pic.jpg",
+        "https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/GRI-Tyres-Logo.svg",
+        "https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/Continental-Tyres-Logo.svg"
     ]
 
     const VehicleSet = [
-        "img1",
-        "img2",
-        "img3",
-        "img4",
-        "img5"
+        "https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/Michelin-Logo.svg",
+        "https://tyrelineimg.s3.amazonaws.com/Ovation_Logo_Orange_Black-768x427.png",
+        "https://tyrelineimg.s3.amazonaws.com/491636693771_.pic.jpg",
+        "https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/GRI-Tyres-Logo.svg",
+        "https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/Continental-Tyres-Logo.svg"
     ]
 
     const ApplicationSet = [
-        "img1",
-        "img2",
-        "img3",
-        "img4",
-        "img5"
+        "https://tyrelineimg.s3.amazonaws.com/tractor+(1).png",
+        "https://tyrelineimg.s3.amazonaws.com/dumper-truck.png",
+        "https://tyrelineimg.s3.amazonaws.com/loader.png"
     ]
 
     return(
         <>
-        <Container fluid>
-            <Row>
-                <Col>
+        <Container fluid className="brandsTopContainer">
+            <Row >
+                <Col className="brandsTopContainerHeading">
                 Products
                 </Col>
             </Row>
             <Row>
                 <Col>
-            <Container>
+            <Container className="brandsSearchContainer">
+                <Row>
+                    <Col className="brandsSearchContainerHeading">
+                    Find the Right Tyre!
+                    </Col>
+                </Row>
             <Row>
                 <Col className="p-0">
                     <SelectBox/>
@@ -62,44 +65,44 @@ const Brands = () => {
             </Row>
 
         </Container>
-        <Container>
+        <Container className="brandSearchbyContainer">
             <Row>
-                <Col>
+                <Col  className="brandSearchbyContainerHeader">
                 Search By Brand
                 </Col>
             </Row>
             <Row>
                 {BrandsSet.map(brand => (
-                    <Col lg={4}>
-                    <img src={brand} alt="brandImage"/>
+                    <Col lg={4} className="BrandbrandImageContainer">
+                    <img src={brand} alt="brandImage" className="BrandbrandImage"/>
                                         </Col>
                 ))}
             </Row>
         </Container>
-        <Container>
+        <Container className="brandSearchbyContainer">
             <Row>
-                <Col>
+                <Col  className="brandSearchbyContainerHeader">
                 Search By Vehicle
                 </Col>
             </Row>
             <Row>
                 {VehicleSet.map(vehicle => (
-                    <Col lg={4}>
-                    <img src={vehicle} alt="brandImage"/>
+                    <Col lg={4} className="BrandbrandImageContainer">
+                    <img src={vehicle} alt="brandImage" className="BrandbrandImage"/>
                                         </Col>
                 ))}
             </Row>
         </Container>
-        <Container>
+        <Container className="brandSearchbyContainer">
             <Row>
-                <Col>
+                <Col  className="brandSearchbyContainerHeader">
                 Search By Application
                 </Col>
             </Row>
             <Row>
-                {ApplicationSet.map(application => (
-                    <Col lg={4}>
-                    <img src={application} alt="brandImage"/>
+                {ApplicationSet.map(vehicle => (
+                    <Col lg={4} className="BrandbrandImageContainer">
+                    <img src={vehicle} alt="brandImage" className="BrandbrandImage"/>
                                         </Col>
                 ))}
             </Row>

@@ -1,5 +1,55 @@
 .brandsPadding{
-    margin-top: 50px;
     width: 100%;
     height: 50px;
+}
+
+
+.brandsTopContainer{
+    background: linear-gradient(70deg, rgba(26, 25, 25, 0.6), rgba(0, 0, 0, 0.6)),url("https://tyrelineimg.s3.amazonaws.com/randy-fath-dDc0vuVH_LU-unsplash+(1).jpeg") center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.brandsTopContainerHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+    color: #fff;
+    min-height: 30vh;
+    font-size: 50px;
+}
+
+
+.brandsSearchContainer{
+    padding-top: 50px;
+}
+
+.brandsSearchContainerHeading{
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+    color: #fff;
+    font-size: 25px;
+}
+
+.brandSearchbyContainer{
+    padding-top: 50px ;
+    padding-bottom: 50px ;
+}
+
+.brandSearchbyContainerHeader{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.BrandbrandImage{
+    width: 150px;
+}
+
+.BrandbrandImageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

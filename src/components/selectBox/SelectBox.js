@@ -5,7 +5,7 @@ const SelectBox = () => {
   const [inputValue, setInoutValue] = useState("");
   const [selectableVal,setSelectables] = useState([]);
   const [showAll,setShowAll] = useState(false)
-  const options = ["Michelin", "Contenental","GRI","Dunlop"];
+  const options = ["Michelin", "Contenental","GRI","Dunlop","Dunlop"];
 
   
 useEffect(() =>{displaySelection()},[inputValue])
