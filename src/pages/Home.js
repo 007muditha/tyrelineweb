@@ -10,8 +10,19 @@ const Home = () => {
     return(
         <Container fluid>
             <Row className="topVideoSection">
-                <Col md={6} className="p-0">
+                <Col md={6} className="topVideoTextSection">
+                    <span className="text-left topVideoTextSectionHeader">
                     Text content
+                    </span>
+                    <span className="text-left topVideoTextSectionHeader">
+                    Text content
+                    </span>
+                    <span className="text-left topVideoTextSectionHeader">
+                    Text content
+                    </span>
+                    <span className="text-left topVideoTextSectionText">
+                        Ea sit mollit laboris sit eu voluptate veniam. Ea sit mollit laboris sit eu voluptate veniam. Ea sit mollit laboris sit eu voluptate veniam.
+                    </span>
                 </Col>
                 <Col md={6} className="videoContainer p-0">
                 <video autoPlay muted loop className="videoBG">

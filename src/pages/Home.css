@@ -9,23 +9,44 @@
     background:linear-gradient(40deg, rgba(26, 25, 25, 0.6), rgba(250, 250, 250, 0.9)), url("https://tyrelineimg.s3.amazonaws.com/spencer-pugh-uzDCTCx6GXE-unsplash.jpg");
     background-size: cover;
     background-position: center ;
-    min-height: 400px;
+    min-height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    top:-2px;
 }
 
+.topVideoTextSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-left: 100px !important;
+  padding-right: 50px !important;
+}
+
+.topVideoTextSectionHeader{
+  font-size: 35px;
+  line-height: 35px;
+}
+
+.topVideoTextSectionText{
+  margin-top: 10px;
+  text-align: end;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+
 .searchBoxInner{
+  padding-top: 25px;
   background-color: rgba(255, 255, 255, 0.466);
   height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
 }
 
 .searchButton{
-  margin-top: 50px;
   width: 100%;
   height: 50px;
 }
