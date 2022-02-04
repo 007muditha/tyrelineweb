@@ -12,21 +12,21 @@ const Home = () => {
             <Row className="topVideoSection">
                 <Col md={6} className="topVideoTextSection">
                     <span className="text-left topVideoTextSectionHeader">
-                    Text content
+                    Bringing the
                     </span>
                     <span className="text-left topVideoTextSectionHeader">
-                    Text content
+                    world’s best tyres
                     </span>
                     <span className="text-left topVideoTextSectionHeader">
-                    Text content
+                    to you…
                     </span>
                     <span className="text-left topVideoTextSectionText">
-                        Ea sit mollit laboris sit eu voluptate veniam. Ea sit mollit laboris sit eu voluptate veniam. Ea sit mollit laboris sit eu voluptate veniam.
+                    We’re looking forward to working with you as your new agriculture partner! 
                     </span>
                 </Col>
                 <Col md={6} className="videoContainer p-0">
                 <video autoPlay muted loop className="videoBG">
-                    <source src="https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/The-Farmer.mp4" type="video/mp4" />
+                    <source src="https://tyrelineimg.s3.amazonaws.com/GRI+-+We'll+get+you+there.mp4" type="video/mp4" />
                 </video>
                 </Col>
             </Row>
@@ -47,7 +47,7 @@ const Home = () => {
                     <SelectBox/>
                 </Col>
                 <Col  className="p-0">
-                    <Button className="searchButton"> Search </Button>
+                    <Button variant="warning" className="searchButton"> Search </Button>
                 </Col>
                 </Row>
                 </Container>

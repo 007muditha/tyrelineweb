@@ -7,11 +7,10 @@ import "./About.css"
 const About = () => {
 
     const ourVisionList = [
-    "Proident velit Lorem veniam quis aliqua qui in minim eu sit reprehenderit aute duis.",
-    "Proident velit Lorem veniam quis aliqua qui in minim eu sit reprehenderit aute duis.",
-    "Proident velit Lorem veniam quis aliqua qui in minim eu sit reprehenderit aute duis.",
-    "Proident velit Lorem veniam quis aliqua qui in minim eu sit reprehenderit aute duis.",
-    "Proident velit Lorem veniam quis aliqua qui in minim eu sit reprehenderit aute duis."
+    "We strive to move forward by learning a great deal from listening to the needs of our farmers. We believe the key to superior customer care is by identifying the needs of our customers, building trust and gaining their feedback. We’ve witnessed the hard work and dedication committed by you and we will always listen to your needs.",
+    "To ensure timely deliveries and effective communication, we’ve implemented the use of the latest technology to ease our communication and supply process. ",
+    "At Tyreline, we partner up with top tyre businesses to connect the supply chain in order to provide our customers with high quality tyres, customer service and care.",
+    "We’re looking forward to partnering up with you. Our stock and supply chain is assured to deliver all of your needs year round."
     ]
 
 
@@ -52,20 +51,20 @@ const About = () => {
             </Row>
             </Container>
             <Container fluid className="aboutusVisionContainer">
-            <Container>
+            <Container className="aboutusOurTeam">
             <Row>
             
                 <Col lg={6} md={6}>
                 
-                <Row>
+                <div className="aboutVisionContainer">
                     <Col lg={12} md={12} className="aboutusOurVision">
                     Our Vision
                     </Col>
                     <Col lg={12} md={12} className="aboutusOurConnecting">
-                    Connecting the Worlds
+                    Bringing the world’s best tyres to you
                     </Col>
                     
-                </Row>
+                </div>
                 
                 </Col>
                 <Col lg={6} md={6}>

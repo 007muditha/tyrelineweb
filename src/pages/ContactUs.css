@@ -1,0 +1,34 @@
+.mapContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.maps{
+    width: 100%;
+}
+
+.contactUsHeader{
+    background:linear-gradient(40deg, rgba(26, 25, 25, 0.6), rgba(54, 54, 54, 0.9)), url("https://tyrelineimg.s3.amazonaws.com/randy-fath-dDc0vuVH_LU-unsplash+(1).jpeg") center;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.FormContainer{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactUsHeaderText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 600;
+}

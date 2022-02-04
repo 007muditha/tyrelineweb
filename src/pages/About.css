@@ -1,4 +1,5 @@
 .aboutUsTop{
+    
     background:linear-gradient(40deg, rgba(26, 25, 25, 0.6), rgba(54, 54, 54, 0.9)), url("https://tyrelineimg.s3.amazonaws.com/pexels-mark-stebnicki-2889442.jpg") center;
     background-size: cover;
     min-height: 100vh;
@@ -23,8 +24,6 @@
     font-weight: 600;
 }
 
-
-
 .aboutUsWhoWeAreContentParagraph{
     margin-left: 5rem;
     margin-right: 5rem;
@@ -44,11 +43,9 @@
 
 }
 
-
 .aboutusOurVision{
     font-size: 30px;
     font-weight: 600;
-    padding-bottom: 60px;
 }
 
 .aboutusOurConnecting{
@@ -64,4 +61,16 @@
     justify-content: center;
     align-items: center;
     color: #FFF;
+}
+
+.aboutusOurTeam{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.aboutVisionContainer{
+    display: flex ;
+    flex-direction: column ;
+    justify-content: space-between ;
+    height: 35vh;
 }
