@@ -2,6 +2,7 @@ import { Container, Row, Col, Button } from "react-bootstrap"
 import SelectBox from "../components/selectBox/SelectBox"
 import SliderTyres from "../components/Slider/SliderTyres"
 import './Brands.css'
+
 const Brands = () => {
 
 
@@ -68,9 +69,11 @@ const Brands = () => {
                         We are on the Remake for a better user experience. You will be redirected to our existing site with this button to view our products
                     </Col>
                     <Col>
-                        <Button className="searchButton" variant="warning">
+
+                    <Button href="https://tyrelineaustralia.com.au/products/" className="searchButton" variant="warning">
                             Click To View Products
                         </Button>
+
                     </Col>
                 </Row>
                 </Container>

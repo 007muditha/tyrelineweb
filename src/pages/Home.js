@@ -6,6 +6,7 @@ import SelectBox from "../components/selectBox/SelectBox"
 import SliderTyres from "../components/Slider/SliderTyres"
 import SliderLogos from "../components/Slider/SliderLogos"
 import Social from "../components/Social/Social"
+import { Link, NavLink } from "react-router-dom"
 const Home = () => {
     return(
         <Container fluid>
@@ -18,7 +19,7 @@ const Home = () => {
                     world’s best tyres
                     </span>
                     <span className="text-left topVideoTextSectionHeader">
-                    to you…
+                    to you …
                     </span>
                     <span className="text-left topVideoTextSectionText">
                     We’re looking forward to working with you as your new agriculture partner! 
@@ -38,9 +39,11 @@ const Home = () => {
                         We are on the Remake for a better user experience. You will be redirected to our existing site with this button to view our products
                     </Col>
                     <Col>
-                        <Button className="searchButton" variant="warning">
+
+                    <Button href="https://tyrelineaustralia.com.au/products/" className="searchButton" variant="warning">
                             Click To View Products
                         </Button>
+
                     </Col>
                 </Row>
                 {/* <Row>

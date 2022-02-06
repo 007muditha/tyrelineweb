@@ -11,33 +11,40 @@ const Footer = () => {
                     <img src="https://tyrelineimg.s3.amazonaws.com/TyreLine-Logo.png" className='footerImg'/>
                     <span className='footerText'> 
                     <span>
-                        Test test
+                        52, Boundary Road,
                     </span>
                     <span>
-                        Test test
+                        Sunshine West,
                     </span>
                     <span>
-                        Test test
+                        VIC 3020
                     </span>
                     </span>
                 </Col>
             </Row>
             <Row>
-                <Col>
-                <ul>
-                    <li>
+                <Col className='footerContent'>
+                    <a className='footerLink' href='/'>
                         Home
-                    </li>
-                    <li>
-                        Home
-                    </li>
-                    <li>
-                        Home
-                    </li>
-                    <li>
-                        Home
-                    </li>
-                </ul>
+                    </a>
+                     <span className='seperator'>
+                         |
+                     </span>
+                    <a className='footerLink' href='/about'>
+                        About
+                    </a>
+                    <span className='seperator'>
+                         |
+                     </span>
+                    <a className='footerLink' href='/brands'>
+                        Brands
+                    </a>
+                    <span className='seperator'>
+                         |
+                     </span>
+                    <a className='footerLink' href='/contactus'>
+                        Contact Us
+                    </a>
                 </Col>
             </Row>
         </Container>

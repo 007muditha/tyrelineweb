@@ -14,3 +14,38 @@
     flex-direction: column;
     padding-left: 20px;
 }
+
+.seperator{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footerContent{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footerLink{
+    text-decoration: none;
+    color: olivedrab;
+}
+
+.footerLink:hover{
+    color: rgb(67, 88, 24);
+}
+
+@media only screen and (max-width: 600px) {
+    .footer{
+        display: flex;
+        align-items: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        justify-content: center;
+    }
+
+    .footerImg{
+        width:150px
+    }
+}

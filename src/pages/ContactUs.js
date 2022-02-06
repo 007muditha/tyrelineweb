@@ -18,45 +18,58 @@ const ContactUs = () => {
         <Container className='FormContainer' >
            
             <Form>
-                <Row>
+                <Row className='contactUsRow'>
 <Col lg={6}>
 <Form.Group className="mb-3" controlId="formBasicEmail">
-    <Form.Label>Email address</Form.Label>
-    <Form.Control type="email" placeholder="Enter email" />
+    <Form.Label>First Name</Form.Label>
+    <Form.Control type="text" placeholder="First Name" />
   </Form.Group>
 </Col>
 <Col lg={6}>
 <Form.Group className="mb-3" controlId="formBasicEmail">
-    <Form.Label>Email address</Form.Label>
-    <Form.Control type="email" placeholder="Enter email" />
+    <Form.Label>Last Name</Form.Label>
+    <Form.Control type="text" placeholder="Last Name" />
   </Form.Group>
 </Col>           
 <Col lg={6}>
 <Form.Group className="mb-3" controlId="formBasicEmail">
-    <Form.Label>Email address</Form.Label>
-    <Form.Control type="email" placeholder="Enter email" />
+    <Form.Label>Email Address</Form.Label>
+    <Form.Control type="email" placeholder="Email address" />
   </Form.Group>
 </Col>     
 <Col lg={6}>
 <Form.Group className="mb-3" controlId="formBasicEmail">
-    <Form.Label>Email address</Form.Label>
-    <Form.Control type="email" placeholder="Enter email" />
+    <Form.Label>Confirm Email Address</Form.Label>
+    <Form.Control type="email" placeholder="Confirm Email Address" />
   </Form.Group>
-</Col>     
+</Col> 
+<Col lg={6}>
+<Form.Group className="mb-3" controlId="formBasicEmail">
+    <Form.Label>Phone Number</Form.Label>
+    <Form.Control type="text" placeholder="Phone Number" />
+  </Form.Group>
+</Col>  
+<Col lg={6}>
+<Form.Group className="mb-3" controlId="formBasicEmail">
+    <Form.Label>Name of the Company</Form.Label>
+    <Form.Control type="text" placeholder="Name of the Company" />
+  </Form.Group>
+</Col>    
 <Col lg={12}>
 <Form.Group className="mb-3" controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>
-    <Form.Control type="email" placeholder="Enter email" />
+    <Form.Control as="textarea" rows={3} placeholder="Enter email" />
   </Form.Group>
 </Col>     
-  
-  
-  
   </Row>
-
-  <Button variant="primary" type="submit">
+<Row className='contactUsRow'>
+  <Col>
+  <Button variant="warning" type="submit">
     Submit
-  </Button>
+  </Button> 
+  </Col>
+</Row>
+
 </Form>
           
         </Container>
