@@ -33,7 +33,17 @@ const Home = () => {
             <Row className="searchContainer">
                 <Col className="searchBoxCol">
             <Container className="searchBoxInner">
-                <Row>
+                <Row className="searchBoxTemp">
+                    <Col lg={10} md={10} className="searchBoxTempText">
+                        We are on the Remake for a better user experience. You will be redirected to our existing site with this button to view our products
+                    </Col>
+                    <Col>
+                        <Button className="searchButton" variant="warning">
+                            Click To View Products
+                        </Button>
+                    </Col>
+                </Row>
+                {/* <Row>
                 <Col className="p-0">
                     <SelectBox/>
                 </Col>
@@ -49,7 +59,7 @@ const Home = () => {
                 <Col  className="p-0">
                     <Button variant="warning" className="searchButton"> Search </Button>
                 </Col>
-                </Row>
+                </Row> */}
                 </Container>
                 </Col>
             </Row>

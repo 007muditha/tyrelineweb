@@ -43,7 +43,8 @@ const Brands = () => {
                     Find the Right Tyre!
                     </Col>
                 </Row>
-            <Row>
+
+            {/* <Row>
                 <Col className="p-0">
                     <SelectBox/>
                 </Col>
@@ -59,6 +60,18 @@ const Brands = () => {
                 <Col  className="p-0">
                     <Button className="brandsPadding"> Search </Button>
                 </Col>
+                </Row> */}
+                </Container>
+                <Container className="searchBoxInner">
+                <Row className="searchBoxTemp">
+                    <Col lg={10} md={10} className="searchBoxTempText">
+                        We are on the Remake for a better user experience. You will be redirected to our existing site with this button to view our products
+                    </Col>
+                    <Col>
+                        <Button className="searchButton" variant="warning">
+                            Click To View Products
+                        </Button>
+                    </Col>
                 </Row>
                 </Container>
                 </Col>

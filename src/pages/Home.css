@@ -41,7 +41,7 @@
 
 .searchBoxInner{
   padding-top: 25px;
-  background-color: rgba(255, 255, 255, 0.466);
+  background-color: rgba(255, 255, 255, 0.8);
   height: 100px;
 
 }
@@ -84,4 +84,16 @@
   justify-content: center;
   align-items: center;
   background-size: cover;
+}
+
+.searchBoxTemp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBoxTempText{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
