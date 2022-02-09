@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import ImageCard from "../ImageCard/ImageCard";
-
+import './Slider.css'
 
 const SliderComponent = (props) => {
 
@@ -18,6 +18,9 @@ const SliderComponent = (props) => {
             autoplaySpeed: 2000,
       };
       return (
+          <>
+          <h2 className='brandsHeader'>Our Brands</h2>
+          
           <Slider {...settings}>
               <ImageCard image="https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/Continental-Tyres-Logo.svg"/>
               <ImageCard image="https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/GRI-Tyres-Logo.svg"/>
@@ -26,6 +29,7 @@ const SliderComponent = (props) => {
               <ImageCard image="https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/GRI-Tyres-Logo.svg"/>
               <ImageCard image="https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/Michelin-Logo.svg"/>
           </Slider>
+          </>
       );
 }
 

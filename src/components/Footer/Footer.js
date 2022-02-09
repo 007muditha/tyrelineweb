@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container,Row,Col } from 'react-bootstrap'
 import './Footer.css'
+import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
 
@@ -24,27 +25,28 @@ const Footer = () => {
             </Row>
             <Row>
                 <Col className='footerContent'>
-                    <a className='footerLink' href='/'>
+                <NavLink className="footerLink" to="">
                         Home
-                    </a>
+                    </NavLink>
                      <span className='seperator'>
                          |
                      </span>
-                    <a className='footerLink' href='/about'>
-                        About
-                    </a>
+                     <NavLink className="footerLink" to="about">
+                     About 
+                     </NavLink>
                     <span className='seperator'>
                          |
                      </span>
-                    <a className='footerLink' href='/brands'>
-                        Brands
-                    </a>
+                     <NavLink className="footerLink" to="brands">
+                     Brands
+                     </NavLink>
                     <span className='seperator'>
                          |
                      </span>
-                    <a className='footerLink' href='/contactus'>
-                        Contact Us
-                    </a>
+                     <NavLink className="footerLink" to="contactus">
+                     Contact Us
+                     </NavLink>
+
                 </Col>
             </Row>
         </Container>

@@ -12,4 +12,11 @@
 .socialHeader{
     color: #fff;
     margin-left: 16vw;
+    margin-bottom: 50px;
+}
+
+.sectionHeader{
+    color: #fff;
+    margin-left: 16vw;
+    margin-bottom: 50px;
 }

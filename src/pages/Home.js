@@ -33,7 +33,9 @@ const Home = () => {
             </Row>
             <Row className="searchContainer">
                 <Col className="searchBoxCol">
+                <h2 className='brandsHeaderWhite'>Find Your Product</h2>
             <Container className="searchBoxInner">
+                
                 <Row className="searchBoxTemp">
                     <Col lg={10} md={10} className="searchBoxTempText">
                         We are on the Remake for a better user experience. You will be redirected to our existing site with this button to view our products

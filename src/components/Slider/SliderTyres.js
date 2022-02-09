@@ -18,7 +18,8 @@ const SliderComponent = (props) => {
             autoplaySpeed: 2000,
       };
       return (
-  
+  <>
+  <h2 className='sectionHeader'>Top Selling Products</h2>
           <Slider {...settings}>
               <Card/>
               <Card/>
@@ -29,6 +30,7 @@ const SliderComponent = (props) => {
               <Card/>
               <Card/>
           </Slider>
+          </>
 
       );
 }
