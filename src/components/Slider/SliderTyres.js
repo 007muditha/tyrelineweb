@@ -19,7 +19,7 @@ const SliderComponent = (props) => {
       };
       return (
   <>
-  <h2 className='sectionHeader'>Top Selling Products</h2>
+  <h2 className='sectionHeader'>Best Selling Products</h2>
           <Slider {...settings}>
               <Card/>
               <Card/>

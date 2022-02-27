@@ -20,14 +20,14 @@ const SliderComponent = (props) => {
       return (
           <>
           <h2 className='brandsHeader'>Our Brands</h2>
-          
+          {/* Michelin GRI Atlas Continental BFGoodrich Ovation */}
           <Slider {...settings}>
-              <ImageCard image="https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/Continental-Tyres-Logo.svg"/>
-              <ImageCard image="https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/GRI-Tyres-Logo.svg"/>
-              <ImageCard image="https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/Michelin-Logo.svg"/>
-              <ImageCard image="https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/Continental-Tyres-Logo.svg"/>
-              <ImageCard image="https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/GRI-Tyres-Logo.svg"/>
-              <ImageCard image="https://tyrelineaustralia.com.au/wp-content/uploads/2021/07/Michelin-Logo.svg"/>
+            <ImageCard image="https://tyrelineimg.s3.amazonaws.com/brands/AtlasTires.png"/>
+             <ImageCard image="https://tyrelineimg.s3.amazonaws.com/brands/BFGoodrich.png"/>
+             <ImageCard image="https://tyrelineimg.s3.amazonaws.com/brands/GRI_Tires.png"/>
+              <ImageCard image="https://tyrelineimg.s3.amazonaws.com/brands/Michelin.png"/>
+              <ImageCard image="https://tyrelineimg.s3.amazonaws.com/brands/Ovation-Tires.png"/>
+              <ImageCard image="https://tyrelineimg.s3.amazonaws.com/brands/continental-logo.png"/>
           </Slider>
           </>
       );

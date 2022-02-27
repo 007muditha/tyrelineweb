@@ -4,12 +4,12 @@ import About from './pages/About'
 import Nav from './components/nav/Nav'
 import Brands from './pages/Brands'
 import Footer from './components/Footer/Footer'
+import Resources from './pages/Resources'
 import ContactUs from './pages/ContactUs'
 import {BrowserRouter , Route,Routes } from 'react-router-dom'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 function App() {
   return (
@@ -23,6 +23,7 @@ function App() {
     <Route path="/about"  element={<About/>}/>
     <Route path="/brands"  element={<Brands/>}/>
     <Route path="/contactus"  element={<ContactUs/>}/>
+    <Route path="/resources" element={<Resources/>}/>
     </Routes >
     </main>
     <Footer/>
